@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Rubik",sans-serif;
+}
+
+span{
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.redShadow {
+  box-shadow: 3px 3px 0 0 #d13c3c;
+}
+
+.redShadow:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 6px 6px 0 0 #d13c3c;
+}
